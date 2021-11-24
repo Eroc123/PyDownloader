@@ -1,7 +1,6 @@
 import time, requests
 from threading import Thread
 from os import mkdir, remove, rename, path
-import tkinter as tk
 from urllib.parse import urlparse
 
 def formatsize(size):
